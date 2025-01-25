@@ -1,0 +1,88 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font lucu */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Latar belakang gradasi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 300px; /* Lebar tetap untuk form */
+    text-align: center; /* Rata tengah untuk teks */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff7e5f;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Transisi border */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar */
+}
+
+input:focus {
+    border-color: #feb47b; /* Warna border saat fokus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7e5f; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transisi warna tombol */
+}
+
+button:hover {
+    background-color: #feb47b; /* Warna tombol saat hover */
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 300px; /* Lebar tetap untuk biodata */
+    text-align: left; /* Rata kiri untuk teks */
+}
+
+p {
+    color: #555; /* Warna teks */
+    margin: 10px 0; /* Jarak antar paragraf */
+    line-height: 1.5; /* Jarak antar baris */
+}
+
+strong {
+    color: #333; /* Warna untuk teks tebal */
+}
+
+.styled-link {
+    display: inline-block; /* Membuat tautan menjadi blok */
+    padding: 10px 15px; /* Menambahkan padding untuk ruang di sekitar teks */
+    background-color: #ff7e5f; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border-radius: 5px; /* Membuat sudut membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+    transition: background-color 0.3s, transform 0.3s; /* Transisi untuk efek hover */
+}
+
+.styled-link:hover {
+    background-color: #fff; /* Warna latar belakang saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
